@@ -211,7 +211,7 @@ body{
 
 
 .js .js-tabcontent section{
-    display: none;
+    display: none !important;
 
 }
 .js .js-tabcontent section.ativo{/*quando a classe tiver ativda*/
