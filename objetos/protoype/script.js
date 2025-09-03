@@ -26,14 +26,15 @@ Pessoas.prototype.nomeCompleto = function(){
 // Liste os construtores dos dados abaixo
 const li = document.querySelector('li');
 
-li;
-li.click;
-li.innerText;
-li.value;
-li.hidden;
-li.offsetLeft;
-li.click();
+li;//HTMLLIElement
+li.click;//function
+li.innerText;//texto  string
+li.value;//number
+li.hidden;//boolean
+li.offsetLeft;//Number
+li.click();//undefined
 
 // Qual o construtor do dado abaixo:
 li.hidden.constructor.name;
 
+//retorna uma string falando o nome de boolean
