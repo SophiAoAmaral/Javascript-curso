@@ -71,3 +71,15 @@ const instrumento = 'Guitarra';
 instrumento.indexOf('r'); // 5
 instrumento.lastIndexOf('r'); // 6
 instrumento.indexOf('ta'); // 3
+
+
+const frase3 = 'ta';
+frase3.repeat(5);//tatatata
+
+let listaItens = 'Camisas Bones Calças Bermudas  Vestidos Saias'
+
+listaItens = listaItens.replace(/[ ]+/g, ', ')
+
+const assraylista = listaItens.split(", ")//vai quebrar sempre q aparecer um ,
+
+console.log(assraylista)
